@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap');
+body {
+  position: relative;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  font-family: 'Titillium Web', sans-serif;
+}
+.div.card{
+    margin: 20px 20px;
+  }
