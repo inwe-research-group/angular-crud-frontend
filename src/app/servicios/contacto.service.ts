@@ -7,9 +7,8 @@ import { catchError, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ContactoService {
-
-  //readonly BASE_URL: string = 'http://localhost:5002'
-  readonly BASE_URL: string = 'https://flask-crud-back1.herokuapp.com/'
+  
+  readonly BASE_URL: string = 'http://137.184.120.127:5000'
   
 
   constructor(private http:HttpClient) { }  
