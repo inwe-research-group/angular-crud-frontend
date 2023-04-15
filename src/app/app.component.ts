@@ -37,10 +37,7 @@ export class AppComponent {
     });  
   }
 
-  registrarContacto(): void {    
-    //let fullname = this.contactoForm.controls['fullname'].value;
-    //console.log("registrarContacto"); 
-    //console.log(fullname); 
+  registrarContacto(): void {      
     this.contactoService.registrarContacto(this.contactoForm.value).subscribe((result: any) => { }, (err:any)=>{
       Swal.close();
       Swal.fire({
